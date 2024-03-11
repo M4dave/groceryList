@@ -14,20 +14,37 @@ h1 {
     border-right: 3px dotted hsl(251, 100%, 61%);
     border-top: 3px solid hsl(45, 76%, 48%);
 }
-h2{
+#cannedFreezer{
    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
     /* border: 3px solid hsl(294, 35%, 57%); */
     border-radius: 10px;
     padding: 5px;
-    width: 20%;
+    width: 6%;
+    text-align: center;
     border-bottom: 3px solid hsl(0, 76%, 48%);
     border-left: 3px dotted hsl(206, 100%, 61%);
     border-right: 3px dotted hsl(206, 100%, 61%);
     border-top: 3px solid hsl(0, 76%, 48%);
     
 }
+#freezerItem{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
+    /* border: 3px solid hsl(294, 35%, 57%); */
+    border-radius: 10px;
+    padding: 5px;
+    width: 25%;
+    text-align: center;
+    border-bottom: 3px solid hsl(0, 76%, 48%);
+    border-left: 3px dotted hsl(206, 100%, 61%);
+    border-right: 3px dotted hsl(206, 100%, 61%);
+    border-top: 3px solid hsl(0, 76%, 48%);
+    
+}
+
 
 .pantryList{
     border: 1px solid hsl(0, 81%, 35%);
@@ -39,30 +56,31 @@ h2{
     border-left: 3px dotted hsl(123, 100%, 61%);
     border-right: 3px dotted hsl(251, 100%, 61%);
     border-top: 3px solid hsl(45, 76%, 48%);
-}
-
-.dryGoods {
     display: inline-block;
-    background-color: hsl(247, 67%, 37%);
-    color: hsl(123, 18%, 41%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1em;
-    width: 30%;
-    height: 100px;
-    border-radius: 10px;
     
-
 }
-.cannedFoods {
+
+.pantryGoods {
     display: inline-block;
     background-color: hsl(247, 67%, 37%);
     color: hsl(123, 18%, 41%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
     width: 30%;
+    height: 130px;
+    border-radius: 10px;
+}
+.veggiesSnacks {
+
+    background-color: hsl(247, 67%, 37%);
+    color: hsl(123, 18%, 41%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 50%;
     height: 100px;
     border-radius: 10px;
 }
+
 h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: hsl(0, 0%, 100%);
@@ -72,4 +90,16 @@ h3{
     border-right: 3px dotted #ff7038;
     border-top: 3px solid #1dd75b;
     width: 20%;
+    text-align: center;
+}
+#dryItems{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border-bottom: 3px solid #af5151;
+    border-left: 3px dotted #38f8ff;
+    border-right: 3px dotted #ff7038;
+    border-top: 3px solid #1dd75b;
+    width: 14%;
+    text-align: center;
 }
