@@ -1,19 +1,44 @@
 body{
     background-color: hsl(124, 89%, 4%);
+    
 }
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
-    border: 3px solid hsl(294, 35%, 57%);
+    /* border: 3px solid hsl(294, 35%, 57%); */
     border-radius: 20px;
     padding: 5px;
+    border-bottom: 3px solid hsl(59, 76%, 48%);
+    border-left: 3px dotted hsl(123, 100%, 61%);
+    border-right: 3px dotted hsl(251, 100%, 61%);
+    border-top: 3px solid hsl(45, 76%, 48%);
+}
+h2{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
+    /* border: 3px solid hsl(294, 35%, 57%); */
+    border-radius: 10px;
+    padding: 5px;
+    width: 20%;
+    border-bottom: 3px solid hsl(0, 76%, 48%);
+    border-left: 3px dotted hsl(206, 100%, 61%);
+    border-right: 3px dotted hsl(206, 100%, 61%);
+    border-top: 3px solid hsl(0, 76%, 48%);
+    
 }
 
 .pantryList{
     border: 1px solid hsl(0, 81%, 35%);
+    width: 50%;
     padding: 4px;
     margin: 5px;
+    border-radius: 10px;
+    border-bottom: 3px solid hsl(59, 76%, 48%);
+    border-left: 3px dotted hsl(123, 100%, 61%);
+    border-right: 3px dotted hsl(251, 100%, 61%);
+    border-top: 3px solid hsl(45, 76%, 48%);
 }
 
 .dryGoods {
@@ -23,7 +48,9 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
     width: 30%;
-    height: 200px;
+    height: 100px;
+    border-radius: 10px;
+    
 
 }
 .cannedFoods {
@@ -33,5 +60,6 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
     width: 30%;
-    height: 200px;
+    height: 100px;
+    border-radius: 15px;
 }
