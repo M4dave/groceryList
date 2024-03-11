@@ -1,10 +1,37 @@
+body{
+    background-color: hsl(124, 89%, 4%);
+}
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
+    border: 3px solid hsl(294, 35%, 57%);
+    border-radius: 20px;
+    padding: 5px;
 }
 
-div{
-    border: 1px solid black;
+.pantryList{
+    border: 1px solid hsl(0, 81%, 35%);
     padding: 4px;
     margin: 5px;
+}
+
+.dryGoods {
+    display: inline-block;
+    background-color: hsl(334, 36%, 77%);
+    color: hsl(245, 50%, 52%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 30%;
+    height: 200px;
+
+}
+.cannedFoods {
+    display: inline-block;
+    background-color: hsl(334, 36%, 77%);
+    color: hsl(245, 50%, 52%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    width: 30%;
+    height: 200px;
 }
