@@ -1,7 +1,7 @@
-body{
+body{/* body background color */
     background-color: hsl(315, 10%, 69%);    
 }
-h1 {
+h1 {/* heading CSS */
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
@@ -12,7 +12,7 @@ h1 {
     border-right: 3px dotted hsl(251, 100%, 61%);
     border-top: 3px solid hsl(45, 76%, 48%);
 }
-h2{
+h2{/* heading CSS */
     border-bottom: 3px solid hsl(288, 76%, 48%);
     border-left: 3px dotted hsl(93, 90%, 16%);
     border-right: 3px dotted hsl(251, 68%, 38%);
@@ -23,7 +23,7 @@ h2{
     text-align: center;
 }
 
-.pantryGoods{
+.pantryGoods{ /* class for pantryGoods  */
     float: left;
     width: 300px;
     border-bottom: 3px solid hsl(315, 76%, 48%);
@@ -37,7 +37,7 @@ h2{
     border-radius: 20px;
     color: hsl(245, 27%, 44%);
 }
-.veggiesSnacks{
+.veggiesSnacks{ /* class for veggiesSnacks */
     float: left;
     width: 300px;
     border-bottom: 3px solid hsl(315, 76%, 48%);
