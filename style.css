@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(0, 38%, 87%);    
+    background-color: hsl(315, 10%, 69%);    
 }
 h1 {
     text-align: center;
@@ -13,8 +13,11 @@ h1 {
     border-top: 3px solid hsl(45, 76%, 48%);
 }
 h2{
-    color: hsl(0, 91%, 47%);
-    border: 3px solid hsl(246, 82%, 47%);
+    border-bottom: 3px solid hsl(288, 76%, 48%);
+    border-left: 3px dotted hsl(93, 90%, 16%);
+    border-right: 3px dotted hsl(251, 68%, 38%);
+    border-top: 3px solid hsl(45, 73%, 35%);
+    text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
     width: 150px;
     border-radius: 20px;
     text-align: center;
@@ -23,20 +26,24 @@ h2{
 .pantryGoods{
     float: left;
     width: 300px;
-    border: 3px solid hsl(226, 47%, 35%);
+    border-bottom: 3px solid hsl(315, 76%, 48%);
+    border-left: 3px dotted hsl(17, 95%, 15%);
+    border-right: 3px dotted hsl(251, 55%, 44%);
+    border-top: 3px solid hsl(45, 84%, 34%);
     font: 1em;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 15px;
     padding: 10px;
     border-radius: 20px;
     color: hsl(245, 27%, 44%);
-
-
 }
 .veggiesSnacks{
     float: left;
     width: 300px;
-    border: 3px solid hsl(226, 47%, 35%);
+    border-bottom: 3px solid hsl(315, 76%, 48%);
+    border-left: 3px dotted hsl(17, 95%, 15%);
+    border-right: 3px dotted hsl(251, 55%, 44%);
+    border-top: 3px solid hsl(45, 84%, 34%);
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 15px;
