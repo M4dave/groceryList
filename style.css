@@ -11,7 +11,7 @@ h1 {/* heading CSS */
     border-left: 3px dotted hsl(123, 100%, 61%);
     border-right: 3px dotted hsl(251, 100%, 61%);
     border-top: 3px solid hsl(45, 76%, 48%);
-    background-color: blueviolet;
+    background-color: hsl(271, 76%, 53%);
 }
 h2{/* heading CSS */
     border-bottom: 3px solid hsl(288, 76%, 48%);
@@ -22,7 +22,7 @@ h2{/* heading CSS */
     width: 150px;
     border-radius: 20px;
     text-align: center;
-    background-color: brown;
+    background-color: hsl(0, 59%, 41%);
 }
 
 .pantryGoods{ /* class for pantryGoods  */
@@ -38,7 +38,7 @@ h2{/* heading CSS */
     padding: 10px;
     border-radius: 20px;
     color: hsl(245, 27%, 44%);
-    background-color: aqua;
+    background-color: hsl(180, 100%, 50%);
 }
 .veggiesSnacks{ /* class for veggiesSnacks */
     float: left;
@@ -53,5 +53,5 @@ h2{/* heading CSS */
     padding: 10px;
     border-radius: 20px;
     color: hsl(245, 27%, 44%);
-    background-color: azure;
+    background-color: hsl(180, 100%, 50%);
 }
